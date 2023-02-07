@@ -1,5 +1,5 @@
 import { Component } from "react";
-// import s from "./StartFild.module.css"
+import s from "./Form.module.css"
 
 
 
@@ -11,7 +11,8 @@ export default class Form extends Component {
         return (
             <form >
                 <label>
-                    имя <input type="text"></input>
+                    имя
+                    <input className={s.input} type="text"></input>
                 </label>
 
             </form>
